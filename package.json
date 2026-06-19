@@ -1,12 +1,13 @@
 {
-  "name": "server-js",
+  "name": "workflow-tracker",
   "version": "1.0.0",
-  "description": "My Node.js server",
+  "description": "Workflow processing console pipeline",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
   }
 }
